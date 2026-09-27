@@ -1,36 +1,66 @@
-# AWS DevOps Learning Portfolio
+<div align="center">
+
+# ☁️ AWS DevOps Learning Portfolio
+
+**A transparently-tracked, hands-on record of building real AWS/DevOps skills — no fluff, no fake claims.**
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
 [![Status](https://img.shields.io/badge/status-actively%20building-brightgreen)]()
 [![AWS](https://img.shields.io/badge/AWS-Learning%20in%20Progress-FF9900?logo=amazon-aws&logoColor=white)]()
+[![Terraform](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform&logoColor=white)]()
+[![Azure](https://img.shields.io/badge/Cloud-Azure-0078D4?logo=microsoftazure&logoColor=white)]()
+[![Kubernetes](https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?logo=kubernetes&logoColor=white)]()
 
-A hands-on, transparently-tracked AWS/DevOps learning repository. Built while working through and extending the [**aws-devops-zero-to-hero**](https://github.com/iam-veeramalla/aws-devops-zero-to-hero) curriculum by [Abhishek Veeramalla](https://github.com/iam-veeramalla), then rebuilding select labs from scratch as original Terraform/IaC work.
+</div>
 
-> **Note for reviewers:** This is a learning log, not a certification or claimed production track record. Every topic is honestly labeled below — original coursework, my own rebuilds, and concept-only notes are never mixed together. Full attribution and license details: [`ATTRIBUTION.md`](./ATTRIBUTION.md).
+Built while working through and extending the [**aws-devops-zero-to-hero**](https://github.com/iam-veeramalla/aws-devops-zero-to-hero) curriculum by [Abhishek Veeramalla](https://github.com/iam-veeramalla), then rebuilding select labs from scratch as original Terraform/IaC work.
+
+> **Note for reviewers:** This is a learning log, not a certification or a claimed production track record. Every topic below is honestly labeled — original coursework, my own rebuilds, and concept-only notes are never blurred together. Full attribution and license details in [`ATTRIBUTION.md`](./ATTRIBUTION.md).
 
 ---
 
-## About Me
+## 📋 Table of Contents
 
-I'm a **DevOps Engineer with ~2 years of experience**, working day-to-day with:
+- [About Me](#-about-me)
+- [Progress Snapshot](#-progress-snapshot)
+- [How to Read This Repo](#-how-to-read-this-repo)
+- [Learning Roadmap](#-learning-roadmap)
+- [Repository Structure](#-repository-structure)
+- [Other Portfolio Projects](#-other-portfolio-projects)
+- [Connect With Me](#-connect-with-me)
 
-- **Cloud:** Azure (Terraform, AKS, VNets)
-- **Orchestration:** Kubernetes
-- **CI/CD:** GitHub Actions, Azure DevOps Pipelines
+---
 
-This repository is where I'm actively building **AWS depth** — VPC, EC2, IAM, S3, serverless, and cloud automation — to complement my existing Azure/K8s/Terraform skill set.
+## 👋 About Me
 
-**Other portfolio projects:**
+I'm a **DevOps Engineer with ~2 years of professional experience**, currently working day-to-day with:
 
-| Project | Description |
+| Area | Tools |
 |---|---|
-| [AWS Landing Zone (Terraform)](https://github.com/aniket-devop/aws-terraform-landing-zone-project) | Production-style AWS VPC + EC2 + ALB, built from scratch |
-| [Azure Landing Zone (Terraform)](https://github.com/aniket-devop/azure-landing-zone-terraform) | Azure landing zone IaC |
-| [GitOps CI/CD Demo](https://github.com/aniket-devop/gitops-ci-pipeline) | App repo — paired with [GitOps config repo](https://github.com/aniket-devop/gitops-kubernetes-config) |
+| **Cloud** | Azure (Terraform, AKS, VNets) |
+| **Orchestration** | Kubernetes |
+| **CI/CD** | GitHub Actions, Azure DevOps Pipelines |
+| **IaC** | Terraform |
+
+This repository is where I'm actively building **AWS depth** — VPC, EC2, IAM, S3, serverless, and cloud automation — to extend my existing Azure/Kubernetes/Terraform skill set into a genuinely multi-cloud profile.
 
 ---
 
-## How to Read This Repo
+## 📊 Progress Snapshot
+
+| Metric | Count |
+|---|---|
+| 🟩 My implementation (shipped & documented) | 0 |
+| 📌 Planned labs (queued next) | 8 |
+| 🟨 My notes on original code | 0 |
+| 🟦 Original reference material | 6 |
+| ⬜ Concept notes only | 16 |
+
+*Updated as labs move from planned → shipped. See the full roadmap below for topic-by-topic status.*
+
+---
+
+## 🏷️ How to Read This Repo
 
 Every topic is tagged with what's **actually true about it right now**. Nothing is marked complete until it's genuinely built, deployed (where applicable), and documented — including what broke and how it was fixed.
 
@@ -44,7 +74,7 @@ Every topic is tagged with what's **actually true about it right now**. Nothing 
 
 ---
 
-## Learning Roadmap
+## 🗺️ Learning Roadmap
 
 ### Foundations
 | Day | Topic | Status | Notes |
@@ -126,7 +156,7 @@ Every topic is tagged with what's **actually true about it right now**. Nothing 
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 ├── day-N/                  # Per-topic folder (original numbering preserved for
@@ -149,6 +179,34 @@ Each completed (🟩) lab follows a consistent write-up format in its `day-N/REA
 
 ---
 
-## License
+## 🔗 Other Portfolio Projects
+
+| Project | Description |
+|---|---|
+| [AWS Landing Zone (Terraform)](https://github.com/aniket-devop/aws-terraform-landing-zone-project) | Production-style AWS VPC + EC2 + ALB, built from scratch |
+| [Azure Landing Zone (Terraform)](https://github.com/aniket-devop/azure-landing-zone-terraform) | Azure landing zone IaC |
+| [GitOps CI/CD Demo](https://github.com/aniket-devop/gitops-ci-pipeline) | App repo — paired with [GitOps config repo](https://github.com/aniket-devop/gitops-kubernetes-config) |
+
+---
+
+## 📬 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniket484/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aniket-devop)
+[![Gmail](https://img.shields.io/badge/Email-aniketkmr484%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniketkmr484@gmail.com)
+
+</div>
+
+---
+
+## 📄 License
 
 Licensed under the **Apache License 2.0** — see [`LICENSE`](./LICENSE), inherited from the original source repository. See [`ATTRIBUTION.md`](./ATTRIBUTION.md) for details on what that means for reuse of original vs. original-to-this-repo content.
+
+<div align="center">
+
+*Built label by label, lab by lab — no shortcuts on honesty.*
+
+</div>
